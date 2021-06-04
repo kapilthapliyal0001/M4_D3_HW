@@ -15,7 +15,7 @@ function App() {
       <WarningSign text="this is a alert from props" color="danger" />
       <MyBadge text="My badge text" color="primary" />
       {/* <SingleBook book={horror[0]} /> */}
-      <BookList books={horror} />
+      <BookList style={{backgroundColor: "#FF0000"}} books={horror} />
     </div>
   );
 }
